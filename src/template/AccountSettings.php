@@ -3,7 +3,7 @@
 	<div class="card py-0">
 		<div class="d-flex justify-content-between align-items-center pt-15 mx-5">
 			<h5 class="m-0">Account Settings</h5>
-			<a href="<?php echo $AreaInfo['area_url'];?>viewaccount.php?account_id=<?php echo $_GET['account_id'];?>" class="btn btn-danger btn-sm"><i class="fa fa-backward"></i> Return</a>
+			<a href="<?php echo $AreaInfo['area_url'];?>viewaccount.php?account_id=<?php echo htmlspecialchars($_GET['account_id']);?>" class="btn btn-danger btn-sm"><i class="fa fa-backward"></i> Return</a>
 		</div><hr>
 		<div class="mb-15">
 			<div class="row">
