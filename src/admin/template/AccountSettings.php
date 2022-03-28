@@ -2,7 +2,7 @@
 	<div class="card py-0">
 		<div class="d-flex justify-content-between align-items-center pt-15">
 			<h5 class="m-0">Account Settings</h5>
-			<a href="<?php echo $AreaInfo['area_url'];?>admin/viewaccount.php?account_id=<?php echo  htmlspecialchars($_GET['account_id']);?>" class="btn btn-danger btn-sm"><i class="fa fa-backward"></i> Return</a>
+			<a href="<?php echo $AreaInfo['area_url'];?>admin/viewaccount.php?account_id=<?php echo htmlspecialchars($_GET['account_id']);?>" class="btn btn-danger btn-sm"><i class="fa fa-backward"></i> Return</a>
 		</div><hr>
 		<?php $AccountInfo = mysqli_fetch_assoc($sql);
 		$sql = mysqli_query($connect,"SELECT * FROM `hosting_clients` WHERE `hosting_client_key`='".$AccountInfo['account_for']."'");
