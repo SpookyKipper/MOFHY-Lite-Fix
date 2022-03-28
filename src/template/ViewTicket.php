@@ -114,7 +114,7 @@
 					</div>
 					<div class="form-group my-0">
 						<button class="btn btn-sm btn-primary" name="submit">Add Reply</button>
-						<a href="function/CloseTicket.php?ticket_id=<?php echo $_GET['ticket_id']?>" class="btn btn-danger btn-sm">Close Ticket</a>
+						<a href="function/CloseTicket.php?ticket_id=<?php echo htmlspecialchars($_GET['ticket_id']);?>" class="btn btn-danger btn-sm">Close Ticket</a>
 					</div>
 				</form>
 		<?php } ?>
