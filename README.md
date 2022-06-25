@@ -1,4 +1,4 @@
-#This repository was originally forked by [ImLoadingUuU](https://github.com/ImLoadingUuU) that fixes some of the exploits. But then he deleted/privated the repo and this is the fork of his. I have no guarantee that you will be 100% safe and not get hacked.
+# This repository was originally forked by [ImLoadingUuU](https://github.com/ImLoadingUuU) that fixes some of the exploits. But then he deleted/privated the repo and this is the fork of his. I have no guarantee that you will be 100% safe and not get hacked.
 
 ## MOFHY Lite
 MOFHY Lite is a priceless MyOwnFreeHost Client Area for account management, ticket support system and a free ssl service. It has easy to use features much like the WHMCS Digit UI interface. Visit the [offical website](https://getmofhy.eu.org)!
